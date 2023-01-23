@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="mailto:veeveehian@gmail.com" method="post" enctype="multipart/form-data">
+    <div class="container"><br>
+        <h2>CapacityBay Survey Form</h2>
+        <p class="p1">Thank you for taking time to help us improve the platform</p><br>
+        <div class="div1">
+        <div class="div2"><br>
+            <label for="fname">Name</label><br>
+            <input type="text" style="font-family: 'Prompt', sans-serif; width:90%;" id="fName" value="Enter your name"><br><br>
+            
+            <label for="email">Email</label><br>
+            <input type="email" style="font-family: 'Prompt', sans-serif; width:90%;" id="email" value="Enter your Email"><br><br>
+            
+            <label for="age">Age (optional)</label><br>
+            <input type="age" style="font-family: 'Prompt', sans-serif; width:90%;" id="age" value="Age"><br><br>
+            
+            <label for="role">Which option best describes your current role?</label><br>
+            <select name="dropdown" style="font-family: 'Prompt', sans-serif; width:92%;" id="role">
+            <option value="select">Select current role</option>
+            <option value="Student">Student</option>
+            <option value="full time job">Full Time Job</option>
+            <option value="full time Learner">Full Time Learner</option>
+            <option value="prefer not to say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+            <label for="recommend">Would you recommend CapacityBay to a friend?</label><br>
+            <input type="radio" name="recommend" id="Definitely" value="definitely">
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" name="recommend" id="maybe" value="maybe">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" name="recommend" id="not sure" value="not sure">
+            <label for="not sure">Not sure</label><br><br>
+
+            <label for="favorite">What is your favourite feature of CapacityBay?</label><br>
+            <select name="dropdown" style="font-family: 'Prompt', sans-serif; width:92%;" id="role">
+            <option value="select">Select an option</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open Source">Open Source</option>
+        </select><br><br>
+
+            <label for="improved">What would you like to see improved? (check all that apply)</label><br>
+            <input type="checkbox" name="front" id="front">
+            <label for="front">Front-end Projects</label><br>
+            <input type="checkbox" name="back" id="back">
+            <label for="back">Back-end Projects</label><br>
+            <input type="checkbox" name="data" id="data">
+            <label for="data">Data Visualization</label><br>
+            <input type="checkbox" name="Challenges" id="challenges">
+            <label for="Challenges">Challenges</label><br>
+            <input type="checkbox" name="open" id="open">
+            <label for="open">Open Source Community</label><br>
+            <input type="checkbox" name="gitter" id="gitter">
+            <label for="gitter">Gitter help rooms</label><br>
+            <input type="checkbox" name="videos" id="videos">
+            <label for="Videos">Videos</label><br>
+            <input type="checkbox" name="city" id="city">
+            <label for="city">City Meetups</label><br>
+            <input type="checkbox" name="wiki" id="wiki">
+            <label for="wiki">Wiiki</label><br>
+            <input type="checkbox" name="forum" id="forum">
+            <label for="forum">Forum</label><br>
+            <input type="checkbox" name="courses" id="courses">
+           <label for="course">Courses</label><br><br>
+           <label for="text">Any comments or suggestions?</label><br>
+           <textarea rows="5" cols="50" style="font-family: 'Prompt', sans-serif; width:92%;" name="description">Enter your comment here...
+           </textarea><br>
+           <button style="height: 30px; color: white; background-color: rgb(28, 110, 63); border: none; font-family: 'Prompt', sans-serif; width:92%" type="Submit">Submit</botton>
+        <br>
+        </div>
+        </div>
+    </div>
+  </form>
+</body>
+</html>
